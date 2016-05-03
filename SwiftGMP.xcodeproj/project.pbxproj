@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FB8347C1CD8A2FD00E8863F /* gmp-iPhoneOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8347B1CD8A2FD00E8863F /* gmp-iPhoneOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FB834801CD8A31000E8863F /* gmp-iPhoneSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8347D1CD8A31000E8863F /* gmp-iPhoneSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FB834811CD8A31000E8863F /* gmp-MacOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8347E1CD8A31000E8863F /* gmp-MacOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FB834821CD8A31000E8863F /* gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8347F1CD8A31000E8863F /* gmp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FB834841CD8A6A300E8863F /* libgmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB834831CD8A6A300E8863F /* libgmp.a */; };
+		1FB834871CD8A6C100E8863F /* libgmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB834851CD8A6C100E8863F /* libgmp.a */; };
+		1FB834881CD8A6C100E8863F /* libgmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB834861CD8A6C100E8863F /* libgmp.a */; };
+		1FB834891CD8A73800E8863F /* GMPLib in Resources */ = {isa = PBXBuildFile; fileRef = ABDB8DD21C1998AC0008F212 /* GMPLib */; };
+		1FB8348A1CD8A74700E8863F /* libgmp.a in Resources */ = {isa = PBXBuildFile; fileRef = 1FB834851CD8A6C100E8863F /* libgmp.a */; };
+		1FB8348B1CD8A74700E8863F /* libgmp.a in Resources */ = {isa = PBXBuildFile; fileRef = 1FB834861CD8A6C100E8863F /* libgmp.a */; };
+		1FB8348C1CD8A74700E8863F /* libgmp.a in Resources */ = {isa = PBXBuildFile; fileRef = 1FB834831CD8A6A300E8863F /* libgmp.a */; };
 		AB342C3F1B0DD0DF00BB8D19 /* SwiftGMP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB342C331B0DD0DF00BB8D19 /* SwiftGMP.framework */; };
 		AB342C461B0DD0DF00BB8D19 /* SwiftGMPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB342C451B0DD0DF00BB8D19 /* SwiftGMPTests.swift */; };
 		AB342C501B0DD43300BB8D19 /* SwiftGMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB342C4F1B0DD43300BB8D19 /* SwiftGMP.swift */; };
@@ -37,6 +48,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1FB8347B1CD8A2FD00E8863F /* gmp-iPhoneOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "gmp-iPhoneOS.h"; path = "GMPLib/gmp-iPhoneOS.h"; sourceTree = "<group>"; };
+		1FB8347D1CD8A31000E8863F /* gmp-iPhoneSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "gmp-iPhoneSimulator.h"; path = "GMPLib/gmp-iPhoneSimulator.h"; sourceTree = "<group>"; };
+		1FB8347E1CD8A31000E8863F /* gmp-MacOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "gmp-MacOSX.h"; path = "GMPLib/gmp-MacOSX.h"; sourceTree = "<group>"; };
+		1FB8347F1CD8A31000E8863F /* gmp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gmp.h; path = GMPLib/gmp.h; sourceTree = "<group>"; };
+		1FB834831CD8A6A300E8863F /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmp.a; path = GMPLib/iphonesimulator/libgmp.a; sourceTree = "<group>"; };
+		1FB834851CD8A6C100E8863F /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmp.a; path = GMPLib/iphoneos/libgmp.a; sourceTree = "<group>"; };
+		1FB834861CD8A6C100E8863F /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmp.a; path = GMPLib/macosx/libgmp.a; sourceTree = "<group>"; };
 		AB342C331B0DD0DF00BB8D19 /* SwiftGMP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftGMP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB342C371B0DD0DF00BB8D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB342C3E1B0DD0DF00BB8D19 /* SwiftGMPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGMPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB834871CD8A6C100E8863F /* libgmp.a in Frameworks */,
+				1FB834881CD8A6C100E8863F /* libgmp.a in Frameworks */,
+				1FB834841CD8A6A300E8863F /* libgmp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +89,13 @@
 		AB342C291B0DD0DF00BB8D19 = {
 			isa = PBXGroup;
 			children = (
+				1FB834851CD8A6C100E8863F /* libgmp.a */,
+				1FB834861CD8A6C100E8863F /* libgmp.a */,
+				1FB834831CD8A6A300E8863F /* libgmp.a */,
+				1FB8347D1CD8A31000E8863F /* gmp-iPhoneSimulator.h */,
+				1FB8347E1CD8A31000E8863F /* gmp-MacOSX.h */,
+				1FB8347F1CD8A31000E8863F /* gmp.h */,
+				1FB8347B1CD8A2FD00E8863F /* gmp-iPhoneOS.h */,
 				ABDB8DD21C1998AC0008F212 /* GMPLib */,
 				AB342C4F1B0DD43300BB8D19 /* SwiftGMP.swift */,
 				AB342C351B0DD0DF00BB8D19 /* SwiftGMP */,
@@ -125,6 +153,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB8347C1CD8A2FD00E8863F /* gmp-iPhoneOS.h in Headers */,
+				1FB834801CD8A31000E8863F /* gmp-iPhoneSimulator.h in Headers */,
+				1FB834811CD8A31000E8863F /* gmp-MacOSX.h in Headers */,
+				1FB834821CD8A31000E8863F /* gmp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB8348A1CD8A74700E8863F /* libgmp.a in Resources */,
+				1FB8348B1CD8A74700E8863F /* libgmp.a in Resources */,
+				1FB8348C1CD8A74700E8863F /* libgmp.a in Resources */,
+				1FB834891CD8A73800E8863F /* GMPLib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +329,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				"OTHER_LDFLAGS[sdk=iphoneos*]" = "";
 				"OTHER_LDFLAGS[sdk=macosx*]" = "";
 				SDKROOT = macosx;
@@ -343,6 +379,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}/GMP";
@@ -371,6 +408,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GMPLib/$(PLATFORM_NAME)",
+					"$(PROJECT_DIR)/GMPLib/iphonesimulator",
+					"$(PROJECT_DIR)/GMPLib/iphoneos",
+					"$(PROJECT_DIR)/GMPLib/macosx",
 				);
 				MACH_O_TYPE = mh_dylib;
 				OTHER_LDFLAGS = "";
@@ -400,6 +440,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GMPLib/$(PLATFORM_NAME)",
+					"$(PROJECT_DIR)/GMPLib/iphonesimulator",
+					"$(PROJECT_DIR)/GMPLib/iphoneos",
+					"$(PROJECT_DIR)/GMPLib/macosx",
 				);
 				MACH_O_TYPE = mh_dylib;
 				OTHER_LDFLAGS = "";
